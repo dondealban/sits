@@ -22,8 +22,8 @@ new_class.tb
 
 sits_labels(new_class.tb)
 
-sits_cluster_segregation(new_class.tb)
+sits_cluster_separability(new_class.tb)
 
-sits_segregation_measure(new_class.tb, per_cluster = TRUE)
+sits_separability_measure(new_class.tb, per_cluster = TRUE)
 
-sits_segregation_measure(new_class.tb, per_cluster = FALSE)
+sits_separability_measure(new_class.tb, per_cluster = FALSE)

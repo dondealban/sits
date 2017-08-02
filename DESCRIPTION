@@ -22,21 +22,25 @@ BugReports: https://github.com/gilbertocamara/sits/issues
 License: GPL-2 | file LICENSE
 LazyData: true
 Depends:
+    dplyr,
     dtwclust,
     dtwSat,
     magrittr,
+    wtss
 Imports:
-    dplyr,
+    dendextend,
     ensurer,
     entropy,
     ggplot2,
     graphics,
+    grDevices,
     kohonen,
     jsonlite,
     lubridate,
     methods,
     mgcv,
     parallel,
+    plyr,
     ptw,
     purrr,
     purrrlyr,
@@ -54,7 +58,6 @@ Imports:
     tidyr,
     tools,
     utils, 
-    wtss,
     zoo
 Remotes:
      luizassis/wtss,

@@ -424,3 +424,4 @@ sits_getdata <- function (file        = NULL,
      # return the table with the time series
      return (data.tb)
 }
+
